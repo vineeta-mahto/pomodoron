@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pomodoron clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>StopWatch</h1>
+    <div class="container">
+        <div class="num">
+            <h2 id="hr">00</h2>
+            <h2>:</h2>
+            <h2 id="min">00</h2>
+            <h2>:</h2>
+            <h2 id="sec">00</h2>
+            <h2>:</h2>
+            <h2 id="milli">00</h2>
+        </div>
+        <div class="btn">
+            <button onclick="start()">Start</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
